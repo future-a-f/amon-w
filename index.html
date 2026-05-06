@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amon - Cybersecurity Analyst & Creative Technologist</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <button class="dark-mode-toggle" aria-label="Toggle dark mode">
+    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+  </button>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Amon</a>
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Section 1: Hero -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-name">Amon</h1>
+        <p class="hero-role">Data Analyst & Creative Technologist</p>
+        <p class="hero-value">Transforming complex data into actionable insights and meaningful digital experiences</p>
+        <a href="#work" class="cta-button">View my work</a>
+      </div>
+      <div class="hero-visual">
+        <div class="ambient-illustration"></div>
+      </div>
+    </section>
+
+    <!-- Section 2: Work / Projects -->
+    <section id="work" class="work">
+      <div class="container">
+        <h2 class="section-title">Selected Work</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <img src="assets/images/project-1-thumb.jpg" alt="Data Analytics Dashboard" loading="lazy">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Real-Time Analytics Dashboard</h3>
+              <p class="project-description">Interactive dashboard for monitoring KPIs and generating automated insights for business decision-making.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">D3.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+              <a href="case-study-1.html" class="project-link">View case study →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <img src="assets/images/project-2-thumb.jpg" alt="Machine Learning Model" loading="lazy">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Predictive Customer Analytics</h3>
+              <p class="project-description">ML-powered system for predicting customer behavior and optimizing marketing campaigns with 85% accuracy.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">AWS</span>
+              </div>
+              <a href="case-study-2.html" class="project-link">View case study →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <img src="assets/images/project-3-thumb.jpg" alt="Data Visualization Tool" loading="lazy">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Interactive Data Visualization Platform</h3>
+              <p class="project-description">Web-based platform for creating stunning interactive visualizations from complex datasets.</p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">D3.js</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+              <a href="case-study-3.html" class="project-link">View case study →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: About -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I'm a data analyst and creative technologist passionate about turning complex data into compelling stories and actionable insights. I bridge the gap between technical complexity and human understanding, creating tools that not only work beautifully but also make data accessible to everyone.</p>
+            <p>What excites me most is solving real-world problems through thoughtful analysis and innovative technology. Whether it's building predictive models that drive business decisions or creating interactive visualizations that reveal hidden patterns, I thrive on the challenge of making data meaningful and impactful.</p>
+            <div class="experience-timeline">
+              <h3>Experience</h3>
+              <div class="timeline-item">
+                <span class="timeline-year">2022-Present</span>
+                <span class="timeline-role">Senior Data Analyst</span>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-year">2020-2022</span>
+                <span class="timeline-role">Data Analyst</span>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-year">2018-2020</span>
+                <span class="timeline-role">Junior Data Analyst</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-photo">
+            <img src="assets/images/profile-photo.jpg" alt="Amon - Data Analyst" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Skills & Stack -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Stack</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-list">
+              <span class="skill-item">Python</span>
+              <span class="skill-item">JavaScript</span>
+              <span class="skill-item">SQL</span>
+              <span class="skill-item">R</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Frameworks</h3>
+            <div class="skill-list">
+              <span class="skill-item">React</span>
+              <span class="skill-item">TensorFlow</span>
+              <span class="skill-item">D3.js</span>
+              <span class="skill-item">Node.js</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <div class="skill-list">
+              <span class="skill-item">Git</span>
+              <span class="skill-item">Docker</span>
+              <span class="skill-item">AWS</span>
+              <span class="skill-item">Tableau</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Databases</h3>
+            <div class="skill-list">
+              <span class="skill-item">PostgreSQL</span>
+              <span class="skill-item">MongoDB</span>
+              <span class="skill-item">Redis</span>
+              <span class="skill-item">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-form">
+            <form class="form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="submit-button">Send Message</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="availability-status">
+              <span class="status-dot available"></span>
+              <span class="status-text">Open to freelance opportunities</span>
+            </div>
+            <div class="social-links">
+              <a href="mailto:hello@amon.dev" class="social-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                hello@amon.dev
+              </a>
+              <a href="https://linkedin.com/in/amon" class="social-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                LinkedIn
+              </a>
+              <a href="https://github.com/amon" class="social-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Amon. Built with passion and data.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

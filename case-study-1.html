@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Analytics Dashboard - Case Study | Amon</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <button class="dark-mode-toggle" aria-label="Toggle dark mode">
+    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+  </button>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">← Back to Portfolio</a>
+    </div>
+  </nav>
+
+  <main class="case-study">
+    <div class="container">
+      <!-- Hero Section -->
+      <header class="case-study-hero">
+        <h1>Real-Time Analytics Dashboard</h1>
+        <p class="case-study-subtitle">Interactive dashboard for monitoring KPIs and generating automated insights for business decision-making.</p>
+        <div class="case-study-meta">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">D3.js</span>
+          <span class="tech-tag">PostgreSQL</span>
+        </div>
+      </header>
+
+      <!-- Problem Section -->
+      <section class="case-study-section">
+        <h2>The Problem</h2>
+        <div class="case-study-content">
+          <p>A mid-sized e-commerce company was struggling with data fragmentation across multiple systems. Their sales, marketing, and customer service teams were working in silos, making it difficult to get a unified view of business performance. Key challenges included:</p>
+          <ul>
+            <li>Data scattered across 5 different platforms with no real-time integration</li>
+            <li>Manual reporting processes taking 2-3 days to compile</li>
+            <li>Lack of predictive insights for inventory and sales forecasting</li>
+            <li>Difficulty identifying trends and anomalies in customer behavior</li>
+            <li>Management team making decisions based on outdated information</li>
+          </ul>
+          <p>The company needed a centralized, real-time analytics solution that could integrate data from all sources and provide actionable insights instantly.</p>
+        </div>
+      </section>
+
+      <!-- Process Section -->
+      <section class="case-study-section">
+        <h2>The Process</h2>
+        <div class="case-study-content">
+          <h3>Discovery & Research</h3>
+          <p>Started with a comprehensive audit of existing data systems and stakeholder interviews. Identified 15 key metrics that were critical for business decision-making and mapped data flow across all departments.</p>
+          
+          <h3>Architecture Design</h3>
+          <p>Designed a microservices architecture with Python backend for data processing, React frontend for visualization, and PostgreSQL as the central data warehouse. Implemented WebSocket connections for real-time data streaming.</p>
+          
+          <h3>Data Integration</h3>
+          <p>Built custom APIs to connect with existing systems (Salesforce, Shopify, Google Analytics, Zendesk, and internal CRM). Created ETL pipelines to clean, transform, and standardize data from all sources.</p>
+          
+          <h3>Dashboard Development</h3>
+          <p>Developed an interactive dashboard using React and D3.js with the following features:</p>
+          <ul>
+            <li>Real-time KPI monitoring with auto-refresh</li>
+            <li>Interactive charts and drill-down capabilities</li>
+            <li>Customizable dashboards for different user roles</li>
+            <li>Automated anomaly detection and alerts</li>
+            <li>Predictive analytics for sales forecasting</li>
+          </ul>
+          
+          <h3>Testing & Iteration</h3>
+          <p>Conducted extensive testing with 25+ users across all departments. Iterated based on feedback, adding features like export functionality, custom date ranges, and mobile responsiveness.</p>
+        </div>
+      </section>
+
+      <!-- Outcome Section -->
+      <section class="case-study-section">
+        <h2>The Outcome</h2>
+        <div class="case-study-content">
+          <div class="outcome-metrics">
+            <div class="metric">
+              <h3>85%</h3>
+              <p>Reduction in reporting time</p>
+            </div>
+            <div class="metric">
+              <h3>3x</h3>
+              <p>Faster decision-making</p>
+            </div>
+            <div class="metric">
+              <h3>92%</h3>
+              <p>User adoption rate</p>
+            </div>
+            <div class="metric">
+              <h3>$2.4M</h3>
+              <p>Annual cost savings</p>
+            </div>
+          </div>
+          
+          <h3>Key Results</h3>
+          <ul>
+            <li>Real-time data integration across all 5 platforms achieved</li>
+            <li>Automated reporting reduced manual work from 3 days to 30 minutes</li>
+            <li>Sales forecasting accuracy improved by 40%</li>
+            <li>Customer churn prediction model reduced churn by 15%</li>
+            <li>Inventory optimization saved $800K annually in carrying costs</li>
+          </ul>
+          
+          <h3>User Impact</h3>
+          <p>The dashboard became the single source of truth for all business data. Management could now make informed decisions based on current data rather than week-old reports. Teams could collaborate more effectively with shared insights and real-time visibility into cross-functional metrics.</p>
+        </div>
+      </section>
+
+      <!-- Technical Details -->
+      <section class="case-study-section">
+        <h2>Technical Implementation</h2>
+        <div class="case-study-content">
+          <h3>Backend Architecture</h3>
+          <ul>
+            <li>Python with FastAPI for REST APIs</li>
+            <li>Apache Kafka for real-time data streaming</li>
+            <li>PostgreSQL with TimescaleDB for time-series data</li>
+            <li>Redis for caching and session management</li>
+            <li>Docker containerization for deployment</li>
+          </ul>
+          
+          <h3>Frontend Technologies</h3>
+          <ul>
+            <li>React 18 with TypeScript</li>
+            <li>D3.js for custom data visualizations</li>
+            <li>Material-UI for component library</li>
+            <li>WebSocket integration for real-time updates</li>
+            <li>Progressive Web App capabilities</li>
+          </ul>
+          
+          <h3>Data Processing</h3>
+          <ul>
+            <li>Apache Airflow for ETL pipeline orchestration</li>
+            <li>Pandas and NumPy for data manipulation</li>
+            <li>Scikit-learn for predictive modeling</li>
+            <li>Custom anomaly detection algorithms</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Lessons Learned -->
+      <section class="case-study-section">
+        <h2>Lessons Learned</h2>
+        <div class="case-study-content">
+          <h3>Technical Insights</h3>
+          <p>Real-time data processing at scale requires careful consideration of data consistency and performance trade-offs. Implementing proper caching strategies was crucial for maintaining responsiveness under heavy load.</p>
+          
+          <h3>User Experience</h3>
+          <p>The most successful features were those that simplified complex data into actionable insights. Users valued predictive alerts and trend analysis more than raw data visualization.</p>
+          
+          <h3>Business Impact</h3>
+          <p>Data democratization across the organization led to unexpected innovations. Teams that previously had limited data access started making data-driven decisions independently.</p>
+        </div>
+      </section>
+
+      <!-- Next Steps -->
+      <section class="case-study-section">
+        <h2>Next Steps</h2>
+        <div class="case-study-content">
+          <ul>
+            <li>Implement machine learning for advanced predictive analytics</li>
+            <li>Add natural language querying capabilities</li>
+            <li>Expand mobile app functionality</li>
+            <li>Integrate with additional third-party systems</li>
+            <li>Develop automated insight generation using AI</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="case-study-cta">
+        <h2>Interested in similar solutions?</h2>
+        <p>Let's discuss how data analytics can transform your business operations.</p>
+        <a href="index.html#contact" class="cta-button">Get in Touch</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Amon. Built with passion and data.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

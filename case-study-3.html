@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Data Visualization Platform - Case Study | Amon</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <button class="dark-mode-toggle" aria-label="Toggle dark mode">
+    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+  </button>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">← Back to Portfolio</a>
+    </div>
+  </nav>
+
+  <main class="case-study">
+    <div class="container">
+      <!-- Hero Section -->
+      <header class="case-study-hero">
+        <h1>Interactive Data Visualization Platform</h1>
+        <p class="case-study-subtitle">Web-based platform for creating stunning interactive visualizations from complex datasets.</p>
+        <div class="case-study-meta">
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">D3.js</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">MongoDB</span>
+        </div>
+      </header>
+
+      <!-- Problem Section -->
+      <section class="case-study-section">
+        <h2>The Problem</h2>
+        <div class="case-study-content">
+          <p>A research institution was struggling to communicate complex data findings to non-technical stakeholders. Their challenges included:</p>
+          <ul>
+            <li>Static PDF reports that failed to engage audiences</li>
+            <li>Multiple teams using different tools creating inconsistent visualizations</li>
+            <li>Lack of interactivity preventing deep data exploration</li>
+            <li>Time-consuming manual process for creating charts and graphs</li>
+            <li>Difficulty sharing and collaborating on visualizations</li>
+          </ul>
+          <p>The organization needed a unified platform that could transform complex datasets into interactive, shareable visualizations that would make data accessible to everyone.</p>
+        </div>
+      </section>
+
+      <!-- Process Section -->
+      <section class="case-study-section">
+        <h2>The Process</h2>
+        <div class="case-study-content">
+          <h3>Requirements Gathering</h3>
+          <p>Conducted workshops with researchers, analysts, and stakeholders to identify key needs. Defined requirements for 15+ visualization types including heatmaps, network graphs, time series, and geographic visualizations.</p>
+          
+          <h3>Platform Architecture</h3>
+          <p>Designed a modular architecture with Node.js backend, MongoDB for data storage, and D3.js for client-side visualizations. Implemented a plugin system for easy addition of new chart types.</p>
+          
+          <h3>Data Processing Engine</h3>
+          <p>Built a robust data processing pipeline that could handle datasets up to 10GB. Implemented data validation, cleaning, and transformation algorithms to ensure visualization accuracy.</p>
+          
+          <h3>Visualization Library</h3>
+          <p>Created comprehensive visualization components using D3.js:</p>
+          <ul>
+            <li>Interactive charts with zoom, pan, and filter capabilities</li>
+            <li>Real-time data updates with smooth transitions</li>
+            <li>Responsive design for mobile and desktop</li>
+            <li>Export functionality (PNG, SVG, PDF)</li>
+            <li>Accessibility features for screen readers</li>
+          </ul>
+          
+          <h3>User Interface Design</h3>
+          <p>Developed an intuitive drag-and-drop interface for creating visualizations. Implemented guided workflows for common tasks and extensive documentation for advanced users.</p>
+        </div>
+      </section>
+
+      <!-- Outcome Section -->
+      <section class="case-study-section">
+        <h2>The Outcome</h2>
+        <div class="case-study-content">
+          <div class="outcome-metrics">
+            <div class="metric">
+              <h3>70%</h3>
+              <p>Reduction in visualization creation time</p>
+            </div>
+            <div class="metric">
+              <h3>400+</h3>
+              <p>Active users across organization</p>
+            </div>
+            <div class="metric">
+              <h3>15K+</h3>
+              <p>Visualizations created</p>
+            </div>
+            <div class="metric">
+              <h3>95%</h3>
+              <p>User satisfaction rate</p>
+            </div>
+          </div>
+          
+          <h3>Key Results</h3>
+          <ul>
+            <li>Visualization creation time reduced from hours to minutes</li>
+            <li>Consistent branding and design across all departments</li>
+            <li>Increased stakeholder engagement in data-driven discussions</li>
+            <li>Improved data literacy throughout the organization</li>
+            <li>Enhanced collaboration through shared visualization workspaces</li>
+          </ul>
+          
+          <h3>Organizational Impact</h3>
+          <p>The platform transformed how the organization communicates data. Non-technical stakeholders could now explore complex datasets independently, leading to more informed decision-making. Research teams could share findings more effectively, accelerating project timelines and increasing impact.</p>
+        </div>
+      </section>
+
+      <!-- Technical Details -->
+      <section class="case-study-section">
+        <h2>Technical Implementation</h2>
+        <div class="case-study-content">
+          <h3>Frontend Technologies</h3>
+          <ul>
+            <li>Vanilla JavaScript with ES6+ modules</li>
+            <li>D3.js v7 for data visualization</li>
+            <li>WebGL for high-performance rendering</li>
+            <li>Web Workers for heavy data processing</li>
+            <li>PWA capabilities for offline usage</li>
+          </ul>
+          
+          <h3>Backend Architecture</h3>
+          <ul>
+            <li>Node.js with Express.js framework</li>
+            <li>MongoDB with aggregation pipelines</li>
+            <li>Redis for session management and caching</li>
+            <li>Socket.io for real-time collaboration</li>
+            <li>Docker containerization for deployment</li>
+          </ul>
+          
+          <h3>Data Processing</h3>
+          <ul>
+            <li>Custom data parsing and validation engine</li>
+            <li>Statistical analysis integration</li>
+            <li>Automatic chart type recommendations</li>
+            <li>Data anomaly detection and alerts</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Lessons Learned -->
+      <section class="case-study-section">
+        <h2>Lessons Learned</h2>
+        <div class="case-study-content">
+          <h3>Performance Optimization</h3>
+          <p>Large datasets required careful optimization. Implemented virtual scrolling, data sampling, and progressive rendering to maintain smooth interactions even with millions of data points.</p>
+          
+          <h3>User Experience</h3>
+          <p>The most successful features were those that simplified complex interactions. Implemented smart defaults and guided workflows to reduce learning curve.</p>
+          
+          <h3>Scalability</h3>
+          <p>Platform usage grew 10x faster than expected. Implemented horizontal scaling and load balancing to handle concurrent users.</p>
+        </div>
+      </section>
+
+      <!-- Next Steps -->
+      <section class="case-study-section">
+        <h2>Next Steps</h2>
+        <div class="case-study-content">
+          <ul>
+            <li>Add AI-powered visualization recommendations</li>
+            <li>Implement advanced collaboration features</li>
+            <li>Create mobile app for on-the-go access</li>
+            <li>Add integration with popular data sources</li>
+            <li>Develop automated insight generation</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="case-study-cta">
+        <h2>Need better data visualization?</h2>
+        <p>Let's build interactive visualizations that bring your data to life.</p>
+        <a href="index.html#contact" class="cta-button">Get in Touch</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Amon. Built with passion and data.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
